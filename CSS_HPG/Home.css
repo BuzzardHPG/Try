@@ -1,0 +1,54 @@
+/* Start Variables */
+:root {
+    --main-1-color: rgb(170, 112, 3);
+    --main-2-color: #00ccff;
+    --main-element-BG: rgba(0, 0, 0, 0.7);
+}
+/* End Variables */
+
+/* Start Landing */
+.landing {
+    background-image: url(../IMGS_HPG/Landing_img.png);
+    background-size: cover;
+    height: calc(100vh - 65px);
+    margin: 0;
+    margin-top:5px;
+    position: relative;
+    box-shadow: 0px 0px 10px var(--main-2-color);
+}
+
+.landing .Intro-text {
+    background-color: var(--main-element-BG);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+}
+
+.landing .Intro-text h1 {
+    margin: 0px;
+    color: var(--main-1-color);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+}
+
+.landing .Intro-text #P {
+    font-size: 25px;
+}
+
+.landing .Intro-text p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: var(--main-2-color);
+}
+/* End Landing */
+
+/* Start Section */
+
+/* End Section */
