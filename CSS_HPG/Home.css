@@ -19,12 +19,13 @@
 
 .landing .Intro-text {
     background-color: var(--main-element-BG);
+    border-radius: 15px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 350px;
+    min-width: 350px;
     max-width: 100%;
 }
 
@@ -32,13 +33,13 @@
     margin: 0px;
     color: var(--main-1-color);
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.8;
 }
 
 .landing .Intro-text #P {
-    font-size: 27px;
+    font-size: 28px;
 }
 
 .landing .Intro-text p {

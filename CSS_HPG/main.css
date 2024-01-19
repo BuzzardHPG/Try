@@ -113,9 +113,10 @@ body {
 .header .container .nav-links ul {
     list-style: none;
     margin: 0;
-    margin-top: 14px; 
+    margin-top: 8px; 
     padding: 0px;
     background-color: var(--main-element-BG);
+    border-radius: 6px;
     position: absolute;
     right: 0;
     min-width: 150px;
