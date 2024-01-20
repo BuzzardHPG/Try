@@ -1,6 +1,6 @@
 /* Start Variables */
 :root {
-    --main-1-color: rgb(170, 112, 3);
+    --main-1-color: rgba(255, 165, 0, 0.9);
     --main-2-color: #00ccff;
     --main-element-BG: rgba(0, 0, 0, 0.6);
 }
@@ -123,7 +123,7 @@ body {
     right: 0;
     min-width: 150px;
     top: calc(100% + 12px);
-    display: none;
+    /* display: none; */
     z-index: 1;
 }
 
