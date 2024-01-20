@@ -1,6 +1,6 @@
 /* Start Variables */
 :root {
-    --main-1-color: rgb(170, 112, 3);
+    --main-1-color: orange;
     --main-2-color: #00ccff;
     --main-element-BG: rgba(0, 0, 0, 0.7);
 }
@@ -35,6 +35,7 @@
     color: var(--main-1-color);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    opacity: 0.85;
 }
 
 .landing .Intro-text p {
