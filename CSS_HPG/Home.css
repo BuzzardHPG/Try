@@ -30,23 +30,92 @@
 }
 
 .landing .Intro-text h1 {
+    margin-top: 10px;
     margin: 0px;
     color: var(--main-1-color);
     font-weight: bold;
-    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.8;
-}
-
-.landing .Intro-text #P {
-    font-size: 28px;
 }
 
 .landing .Intro-text p {
-    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: var(--main-2-color);
+    margin-bottom: 15px;
+}
+
+/* Mobile Screen */
+@media (max-width: 767px) {
+    /* 10 */
+    .landing {
+        height: calc(100vh - 55px); 
+    }
+    /* 20 */
+    .landing .Intro-text {
+        min-width: 300px;
+    }
+    /* 32 */ 
+    .landing .Intro-text h1 {
+        font-size: 37px;
+        line-height: 1.5;
+    }
+    
+    .landing .Intro-text #P {
+        font-size: 19px;
+    }
+    /* 45 */
+    .landing .Intro-text P {
+        font-size: 15px;
+    }
+}
+/* Small Screen */
+@media (min-width: 768px) {
+    /* 32 */ 
+    .landing .Intro-text h1 {
+        font-size: 40px;
+        line-height: 1.6;
+    }
+    
+    .landing .Intro-text #P {
+        font-size: 22px;
+    }
+    /* 45 */
+    .landing .Intro-text P {
+        font-size: 18px;
+    }
+}
+/* Medium Screen */
+@media (min-width:992px) {
+    /* 32 */ 
+    .landing .Intro-text h1 {
+        font-size: 45px;
+        line-height: 1.7;
+    }
+    
+    .landing .Intro-text #P {
+        font-size: 25px;
+    }
+    /* 45 */
+    .landing .Intro-text P {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+/* Large Screen*/
+@media (min-width: 1200px) {
+    /* 32 */ 
+    .landing .Intro-text h1 {
+        font-size: 50px;
+        line-height: 1.8;
+    }
+    
+    .landing .Intro-text #P {
+        font-size: 28px;
+    }
+    /* 45 */
+    .landing .Intro-text P {
+        font-size: 22px;
+    }
 }
 /* End Landing */
 
