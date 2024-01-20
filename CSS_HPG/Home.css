@@ -8,7 +8,7 @@
 
 /* Start Landing */
 .landing {
-    background-image: url(../IMGS_HPG/Landing_img.png);
+    background-image: url(../B_IMGS/Landing_img.png);
     background-size: cover;
     height: calc(100vh - 65px);
     margin: 0;
