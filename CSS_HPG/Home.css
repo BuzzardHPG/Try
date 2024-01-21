@@ -1,7 +1,8 @@
 /* Start Variables */
 :root {
     --main-1-color: rgba(255, 165, 0, 0.9);
-    --main-2-color: #00ccff;
+    --main-2-color: #00cdff;
+    --main-shadow-color: #00ccff;
     --main-element-BG: rgba(0, 0, 0, 0.7);
 }
 /* End Variables */
@@ -10,11 +11,10 @@
 .landing {
     background-image: url(../B_IMGS/Landing_img.png);
     background-size: cover;
-    height: calc(100vh - 65px);
     margin: 0;
     margin-top:5px;
     position: relative;
-    box-shadow: 0px 0px 10px var(--main-2-color);
+    box-shadow: 0px 0px 10px var(--main-shadow-color);
 }
 
 .landing .Intro-text {
@@ -70,6 +70,10 @@
 }
 /* Small Screen */
 @media (min-width: 768px) {
+    /* 10 */
+    .landing {
+        height: calc(100vh - 60px); 
+    }
     /* 32 */ 
     .landing .Intro-text h1 {
         font-size: 40px;
@@ -86,6 +90,10 @@
 }
 /* Medium Screen */
 @media (min-width:992px) {
+    /* 10 */
+    .landing {
+        height: calc(100vh - 65px); 
+    }
     /* 32 */ 
     .landing .Intro-text h1 {
         font-size: 45px;
@@ -103,6 +111,14 @@
 }
 /* Large Screen*/
 @media (min-width: 1200px) {
+    /* 10 */
+    .landing {
+        height: calc(100vh - 65px); 
+    }
+    
+    .landing .Intro-text {
+        min-width: 400px;
+    }
     /* 32 */ 
     .landing .Intro-text h1 {
         font-size: 50px;
