@@ -1,12 +1,3 @@
-/* Start Variables */
-:root {
-    --main-1-color: rgba(255, 165, 0, 0.9);
-    --main-2-color: #00cdff;
-    --main-shadow-color: #00ccff;
-    --main-element-BG: rgba(0, 0, 0, 0.7);
-}
-/* End Variables */
-
 /* Start Landing */
 .landing {
     background-image: url(../B_IMGS/Landing_img.png);
@@ -95,7 +86,6 @@
     /* 45 */
     .landing .Intro-text P {
         font-size: 20px;
-        margin-bottom: 15px;
     }
 }
 /* Large Screen*/
@@ -120,5 +110,18 @@
 /* End Landing */
 
 /* Start Section */
+.section .container {
+    overflow: hidden;
+    border: 1px solid red;
+}
 
+.section .container .Intro {
+    display: block;
+    width: 100%;
+    border: 1px red solid;
+}
+
+.section .container img {
+    width:300px
+}
 /* End Section */
