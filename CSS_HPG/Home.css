@@ -11,6 +11,7 @@
 .landing {
     background-image: url(../B_IMGS/Landing_img.png);
     background-size: cover;
+    height: 100vh;
     margin: 0;
     margin-top:5px;
     position: relative;
@@ -46,10 +47,6 @@
 
 /* Mobile Screen */
 @media (max-width: 767px) {
-    /* 10 */
-    .landing {
-        height: calc(100vh - 55px); 
-    }
     /* 20 */
     .landing .Intro-text {
         min-width: 300px;
@@ -70,10 +67,6 @@
 }
 /* Small Screen */
 @media (min-width: 768px) {
-    /* 10 */
-    .landing {
-        height: calc(100vh - 60px); 
-    }
     /* 32 */ 
     .landing .Intro-text h1 {
         font-size: 40px;
@@ -90,10 +83,6 @@
 }
 /* Medium Screen */
 @media (min-width:992px) {
-    /* 10 */
-    .landing {
-        height: calc(100vh - 65px); 
-    }
     /* 32 */ 
     .landing .Intro-text h1 {
         font-size: 45px;
@@ -111,11 +100,6 @@
 }
 /* Large Screen*/
 @media (min-width: 1200px) {
-    /* 10 */
-    .landing {
-        height: calc(100vh - 65px); 
-    }
-    
     .landing .Intro-text {
         min-width: 400px;
     }
