@@ -135,7 +135,7 @@
 
 .section .container .departments {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     color: var(--main-11-color);
 }
