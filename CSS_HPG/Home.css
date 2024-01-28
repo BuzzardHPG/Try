@@ -11,6 +11,7 @@
 
 .landing .Intro-text {
     background-color: var(--main-element-BG);
+    padding-top: 10px;
     border-radius: 15px;
     position: absolute;
     left: 50%;
@@ -29,10 +30,15 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.landing .Intro-text #P {
+    margin-top: 10px;
+}
+
 .landing .Intro-text p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: var(--main-2-color);
+    margin-top: -10px;
     margin-bottom: 15px;
 }
 
@@ -44,8 +50,8 @@
     }
     /* 32 */ 
     .landing .Intro-text h1 {
-        font-size: 37px;
-        line-height: 1.5;
+        font-size: 35px;
+        /* line-height: 1.5; */
     }
     
     .landing .Intro-text #P {
@@ -60,28 +66,28 @@
 @media (min-width: 768px) {
     /* 32 */ 
     .landing .Intro-text h1 {
-        font-size: 40px;
-        line-height: 1.6;
+        font-size: 35px;
+        /* line-height: 1.6; */
     }
     
     .landing .Intro-text #P {
-        font-size: 22px;
+        font-size: 21px;
     }
     /* 45 */
     .landing .Intro-text P {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 /* Medium Screen */
 @media (min-width:992px) {
     /* 32 */ 
     .landing .Intro-text h1 {
-        font-size: 45px;
-        line-height: 1.7;
+        font-size: 40px;
+        /* line-height: 1.7; */
     }
     
     .landing .Intro-text #P {
-        font-size: 25px;
+        font-size: 24px;
     }
     /* 45 */
     .landing .Intro-text P {
@@ -95,16 +101,16 @@
     }
     /* 32 */ 
     .landing .Intro-text h1 {
-        font-size: 50px;
-        line-height: 1.8;
+        font-size: 40px;
+        /* line-height: 1.2; */
     }
     
     .landing .Intro-text #P {
-        font-size: 28px;
+        font-size: 24px;
     }
     /* 45 */
     .landing .Intro-text P {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 /* End Landing */
@@ -148,16 +154,20 @@
 .section .container img {
     width:100%;
     border: 1px solid blue;
+    border-radius: 10px;
     box-shadow: 0px 0px 8px blue;
 }
 
 .section .container .departments .D h3 {
     text-align: center;
     text-shadow: 0px 0px 5px black;
+    font-weight: 800;
 }
 
 .section .container .departments .D p {
     margin-top: -10px;
     text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
 } 
 /* End Section */
