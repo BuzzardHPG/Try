@@ -139,6 +139,12 @@
     text-shadow: 0px 0px 5px black;
 }
 
+@media (max-width: 767px) {
+    .section .container .Intro h3 {
+        font-size: 18px;
+    }
+}
+
 .section .container .departments {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
