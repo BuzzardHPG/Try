@@ -344,7 +344,10 @@ body {
 @media (max-width: 767px) {
     #contact .info .label,
     #contact .info .link {
-        font-size: 25px;
+        font-size: 22px;
+    }
+    #contact .info .social {
+        font-size: 14px;
     }
 }
 /* End Contact */
@@ -354,13 +357,19 @@ body {
     background-color: rgb(from color r g b);
     box-shadow: 0px 0px 8px var(--main-shadow-color);
     color: blue;
-    padding: 15px 0;
-    font-size: 18px;
+    padding: 7px 0;
+    font-size: 16px;
     text-align: center;
 }
 
 .footer span {
     color: var(--main-1-color);
     font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 12px;
+    }
 }
 /* End Footer */
