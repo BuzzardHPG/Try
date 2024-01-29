@@ -122,12 +122,10 @@
 }
 
 .section .container .Intro {
-    min-width: 100%;
     border: 1px blue solid;
     color: var(--main-11-color);
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 18px;
+    margin: 15px 5px;
     padding: 0;
     box-shadow: 0px 0px 10px var(--main-shadow-color);
     font-size: 20px;
@@ -148,20 +146,22 @@
 .section .container .departments {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 15px;
     color: var(--main-11-color);
 }
 
 .section .container .departments .D {
     overflow: hidden;
     padding: 0;
+    /* border: 1px red solid; */
 }
 
 .section .container img {
-    width:100%;
+    width: calc(100% - 10px);
     border: 1px solid blue;
     border-radius: 10px;
     box-shadow: 0px 0px 8px blue;
+    margin: 5px;
 }
 
 .section .container .departments .D h3 {
@@ -176,4 +176,22 @@
     font-size: 17px;
     line-height: 1.5;
 } 
+
+.section .container .departments .D a {
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px blue solid;
+    box-shadow: 0px 0px 2px var(--main-shadow-color);
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+    color: var(--main-2-color);
+}
+
+.section .container .departments .D a:hover {
+    border-radius: 10px;
+    background-color: var(--main-element-BG);
+    color: var(--main-11-color);
+}
 /* End Section */
