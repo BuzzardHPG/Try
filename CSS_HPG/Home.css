@@ -147,7 +147,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 15px;
-    color: var(--main-11-color);
+    color: var(--main-1-color);
 }
 
 .section .container .departments .D {
@@ -164,10 +164,16 @@
     margin: 5px;
 }
 
+.section .container .departments .D div {
+    background-color: var(--seconed-element-BG);
+    border-radius: 10px;
+}
+
 .section .container .departments .D h3 {
     text-align: center;
     text-shadow: 0px 0px 5px black;
     font-weight: 800;
+    padding-top: 10px;
 }
 
 .section .container .departments .D p {

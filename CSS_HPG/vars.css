@@ -1,9 +1,10 @@
 /* Start Variables */
 :root {
-    --main-1-color: rgba(255, 165, 0, 0.9);
+    --main-1-color: rgba(255, 165, 0, 0.88);
     --main-11-color: orange;
     --main-2-color: #00cdff;
     --main-shadow-color: #00ccff;
     --main-element-BG: rgba(0, 0, 0, 0.7);
+    --seconed-element-BG: rgba(63, 63, 63, 0.3);
 }
 /* End Variables */
