@@ -303,6 +303,7 @@ body {
     padding-top: 30px;
     padding-bottom: 2%;
     background-color: var(--main-element-BG);
+    background-image: linear-gradient(to right, rgba(165, 0, 0, 0.05) , rgba(165, 45, 0, 0.05));
     box-shadow: 0px 0px 20px var(--main-shadow-color);
     border-top: 2px blue solid;
     border-top-right-radius: 20px;
@@ -357,6 +358,7 @@ body {
 /* Start Footer */
 .footer {
     background-color: rgb(from color r g b);
+    background-image: linear-gradient(to right, rgba(165, 0, 0, 0.1) , rgba(165, 45, 0, 0.1));
     box-shadow: 0px 0px 8px var(--main-shadow-color);
     color: blue;
     padding: 7px 0;
